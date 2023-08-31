@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Youtube</title>
+    <link rel="stylesheet" href="yt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <!-- main div -->
+        <div id="navbar">
+            <!-- box 1 -->
+            <div class="box1">
+                <div id="line"><i class="fa-solid fa-bars"></i> </div>
+                <div id="logo"><i class="fa-brands fa-youtube" class="lg" style="color: #e52e2e;"></i>
+                </div>
+                <div id="para">
+                    <h2 id="h2">Youtube</h2>
+                </div>
+                <div id="in">
+                    <h6 id="h6">IN</h6>
+                </div>
+            </div>
+            <!-- box2 -->
+            <div class="box2">
+                <input type="text" id="bar" class="input" placeholder="   Search">
+
+                <div id="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div id="mic"><i class="fa-solid fa-microphone"></i></div>
+            </div>
+            <!-- box3 -->
+            <div class="box3">
+                <div id="camera"><i class=" fa-solid fa-video"></i></div>
+                <div id="notify"><i class="fa-solid fa-bell"></i></div>
+                <div id="name"><i class="fa-solid fa-n"></i></div>
+            </div>
+
+        </div>
+        <div class="toggle">
+
+            <span id="st" class="element">All</span>
+            <span class="element">Gaming</span>
+            <span class="element">Live</span>
+            <span class="element">Movies</span>
+            <!-- <span class="element">Me</span> -->
+            <span class="element">T-series</span>
+            <span class="element">Cricket</span>
+            <span class="element">Physics</span>
+            <span class="element">Technology</span>
+            <span class="element">Recently uploaded</span>
+            <span class="element">Watched</span>
+            <span class="element">New to you</span>
+
+
+            <!-- <div id="other">
+                <span class="element">Gaming</span>
+                <span class="element">Live</span>
+                <span class="element">News</span>
+                <span class="element">All</span>
+                <span class="element">Gaming</span>
+                <span class="element">Live</span>
+                <span class="element">News</span>
+                <span class="element">Laptops</span>
+                <span class="element">T-series</span>
+                <span class="element">Cricket</span>
+                <span class="element">Physics</span>
+                <span class="element">Recently uploaded</span>
+                <span class="element">Watched</span>
+                <span class="element">New to you</span>
+            </div> -->
+        </div>
+    </header>
+    <!-- sidebar -->
+    <div id="sidebar">
+        <ul>
+            <li class="li"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp; Home</li>
+            <li class="li"><i class="fa-solid fa-bolt"></i>&nbsp;&nbsp;&nbsp;&nbsp; Shorts</li>
+            <li class="li"><i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp; Subscriptions</li>
+            <hr width="75%" style="opacity: 0.3;">
+            <li class="li"><i class="fa-regular fa-circle-play colors"></i>&nbsp;&nbsp;&nbsp; Library</li>
+            <li class="li"><i class="fa-solid fa-clock-rotate-left"></i>&nbsp;&nbsp;&nbsp; History</li>
+            <li class="li"><i class="fa-regular fa-clock"></i>&nbsp;&nbsp;&nbsp; Watch Later</li>
+            <li class="li"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;&nbsp; Downloads</li>
+            <li class="li"><i class="fa-regular fa-thumbs-up"></i>&nbsp;&nbsp;&nbsp; Liked videos</li>
+
+        </ul>
+        <hr width="75%" style="opacity: 0.3;">
+        <b>&nbsp;&nbsp;&nbsp;&nbsp;Subscriptions</b>
+        <ul id="sub">
+            <li class="img"> <img src="mrind.jpeg" width="20px" height="22px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; Mr Indian Hacker</li>
+
+            <li class="img"><img src="tse.png" width="20px" height="22px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; T Series</li>
+
+            <li class="img"> <img src="freecode.svg" width="23px" height="26px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; Free Code Camp</li>
+
+            <li class="img"><img src="sony.jpeg" width="20px" height="22px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; Sony India</li>
+
+
+            <li class="img"><img src="mrbeast.jpeg" width="20px" height="22px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; Mr Beast</li>
+        </ul>
+        <hr width="75%" style="opacity: 0.3;">
+        <b>&nbsp;&nbsp;&nbsp;&nbsp;Explore</b>
+        <ul>
+            <li class="ex"><i class="fa-solid fa-fire colors"></i>&nbsp; &nbsp;&nbsp;&nbsp;Trending</li>
+            <li class="ex"><i class="fa-solid fa-bag-shopping colors"></i>&nbsp;&nbsp;&nbsp;&nbsp; Shopping</li>
+            <li class="ex"><i class="fa-solid fa-music colors"></i>&nbsp;&nbsp;&nbsp;&nbsp; Music</li>
+            <li class="ex"><i class="fa-solid fa-film colors"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Films</li>
+            <li class="ex"><i class="fa-solid fa-signal colors"></i>&nbsp;&nbsp;&nbsp;&nbsp;Live</li>
+            <li class="ex"><i class="fa-solid fa-gamepad colors"></i>&nbsp;&nbsp;&nbsp;&nbsp;Gaming</li>
+        </ul>
+    </div>
+    <div class="items" id="main">
+        <div id="one" class="video">
+            <img src="virat.jpeg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="i">15:30</p>
+            <div class="logo">
+                <img src="logovirat.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kohli's FIRST Test Century in England!
+                Edgbaston 2018 | England Cricket</div>
+            <div class="desc2">
+                <p>England and Wales Cricket Board </p><br>
+                11M views 2 years ago
+            </div>
+        </div>
+        <div class="video" id="two">
+            <img src="dr.png" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="ii">10:13</p>
+            <div class="logo">
+                <img src="logodhruv.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">What came first - Chicken or Egg?
+                Are Eggs Veg or Non Veg? | Dhruv Rathee</div>
+            <div class="desc2">
+                <p>Dhruv Rathee</p><br>
+                1.6M views 14 hours ago
+            </div>
+        </div>
+        <div class="video" id="three">
+            <img src="upsc.jpeg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="iii">14:55</p>
+            <div class="logo">
+                <img src="logoupsc.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">UPSC - Stand Up Comedy Ft. Anubhav Singh Bassi</div>
+            <div class="desc2">
+                <p>Anubhav Singh Bassi</p><br>
+                29M views 4 weeks ago
+            </div>
+        </div>
+        <div class="video" id="four">
+            <img src="luka.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="iv">2:30</p>
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Luka Chuppi | Watch Full Movie on JioCinema |
+                Kartik Aryan | Kriti Sanon</div>
+            <div class="desc2">
+                <p>JioCinema</p><br>
+                800M views 1 year ago
+            </div>
+        </div>
+        <div class="video" id="five">
+            <img src="fraz.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="v">9:19</p>
+            <div class="logo">
+                <img src="logofraz.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">How I Cracked my Dream Company GOOGLE</div>
+            <div class="desc2">
+                <p>Fraz</p><br>
+                1.4M views 1 year ago
+            </div>
+        </div>
+        <div class="video" id="six">
+            <img src="bean.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="vi">18:40</p>
+            <div class="logo">
+                <img src="logobean.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Cup of Coffee | Mr Bean Full Episodes
+                | Mr Bean Official</div>
+            <div class="desc2">
+                <p>Mr Bean</p><br>
+                57M views 4 years ago
+            </div>
+        </div>
+        <div class="video" id="seven">
+            <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="vii">13:28</p>
+            <div class="logo">
+                <img src="logobeast.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">7 Days Stranded At Sea |
+                Mr Beast Challenge
+            </div>
+            <div class="desc2">
+                <p>Mr Beast</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+        <div class="video" id="eight">
+            <img src="hacker.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="viii">12:04</p>
+            <div class="logo">
+                <img src="mrindian.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Holding 11000 Volts Electricity In Hand's...🔌⚡⚡⚡</div>
+            <div class="desc2">
+                <p>MR. INDIAN HACKER</p><br>
+                5.2M views 1 month ago
+            </div>
+        </div>
+        <div class="video" id="nine">
+            <img src="ssr1.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="xi">5:05</p>
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Full Song: KHAIRIYAT (BONUS TRACK) |
+                Sushant, Shraddha | Pritam, Amitabh |Arijit Singh</div>
+            <div class="desc2">
+                <p>T-Series</p><br>
+                940M views 3 years ago
+            </div>
+
+        </div>
+        <div id="one" class="video">
+            <img src="virat.jpeg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="i">15:30</p>
+            <div class="logo">
+                <img src="logovirat.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kohli's FIRST Test Century in England!
+                Edgbaston 2018 | England Cricket</div>
+            <div class="desc2">
+                <p>England and Wales Cricket Board </p><br>
+                11M views 2 years ago
+            </div>
+        </div>
+        <div class="video" id="two">
+            <img src="dr.png" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="ii">10:13</p>
+            <div class="logo">
+                <img src="logodhruv.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">What came first - Chicken or Egg?
+                Are Eggs Veg or Non Veg? | Dhruv Rathee</div>
+            <div class="desc2">
+                <p>Dhruv Rathee</p><br>
+                1.6M views 14 hours ago
+            </div>
+        </div>
+        <div class="video" id="three">
+            <img src="upsc.jpeg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="iii">14:55</p>
+            <div class="logo">
+                <img src="logoupsc.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">UPSC - Stand Up Comedy Ft. Anubhav Singh Bassi</div>
+            <div class="desc2">
+                <p>Anubhav Singh Bassi</p><br>
+                29M views 4 weeks ago
+            </div>
+        </div>
+        <div class="video" id="four">
+            <img src="luka.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="iv">2:30</p>
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Luka Chuppi | Watch Full Movie on JioCinema |
+                Kartik Aryan | Kriti Sanon</div>
+            <div class="desc2">
+                <p>JioCinema</p><br>
+                800M views 1 year ago
+            </div>
+        </div>
+        <div class="video" id="five">
+            <img src="fraz.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="v">9:19</p>
+            <div class="logo">
+                <img src="logofraz.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">How I Cracked my Dream Company GOOGLE</div>
+            <div class="desc2">
+                <p>Fraz</p><br>
+                1.4M views 1 year ago
+            </div>
+        </div>
+        <div class="video" id="six">
+            <img src="bean.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="vi">18:40</p>
+            <div class="logo">
+                <img src="logobean.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Cup of Coffee | Mr Bean Full Episodes
+                | Mr Bean Official</div>
+            <div class="desc2">
+                <p>Mr Bean</p><br>
+                57M views 4 years ago
+            </div>
+        </div>
+        <div class="video" id="seven">
+            <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="vii">13:28</p>
+            <div class="logo">
+                <img src="logobeast.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">7 Days Stranded At Sea |
+                Mr Beast Challenge
+            </div>
+            <div class="desc2">
+                <p>Mr Beast</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+        <div class="video" id="eight">
+            <img src="hacker.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="viii">12:04</p>
+            <div class="logo">
+                <img src="mrindian.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Holding 11000 Volts Electricity In Hand's...🔌⚡⚡⚡</div>
+            <div class="desc2">
+                <p>MR. INDIAN HACKER</p><br>
+                5.2M views 1 month ago
+            </div>
+        </div>
+        <div class="video" id="nine">
+            <img src="ssr1.jpg" alt="" class="img" height="225px" width="380px">
+            <p class="time" id="xi">5:05</p>
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Full Song: KHAIRIYAT (BONUS TRACK) |
+                Sushant, Shraddha | Pritam, Amitabh |Arijit Singh</div>
+            <div class="desc2">
+                <p>T-Series</p><br>
+                940M views 3 years ago
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- <div id="sidebar_after">
+        <ul>
+
+            <li>
+            <li><i class="fa-solid fa-house "></i></li>
+            <b class="text">Home</b></li>
+            <hr width="75%" style="opacity: 0.3;">
+            <li>
+            <li><i class="fa-regular fa-circle-play"></i></li>
+            <b class="text">Shorts</b></li>
+            <hr width="75%" style="opacity: 0.3;">
+            <li>
+            <li><i class="fa-solid fa-bell "></i></li>
+            <b class="text">Subscription</b></li>
+            <hr width="75%" style="opacity: 0.3;">
+            <li>
+            <li><i class="fa-regular fa-circle-play "></i></li>
+            <b class="text">Library</b></li>
+
+            <hr width="75%" style="opacity: 0.3;">
+        </ul>
+    </div> -->
+    <!-- <script src="yt.js"></script> -->
+    <footer>
+        <div class="side-cont">
+            <div class="side-box"><i class="fa-solid fa-house"></i>
+                <p>Home</p>
+            </div>
+            <div class="side-box">
+                <i class="fa-solid fa-bolt"></i>
+                <p>Shorts</p>
+            </div>
+            <div class="side-box">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <p>Subscription</p>
+            </div>
+            <div class="side-box">
+                <i class="fa-solid fa-notes-medical"></i>
+                <p>Library</p>
+            </div>
+            <div class="side-box">
+                <i class="fa-solid fa-download"></i>
+                <p>Download</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
